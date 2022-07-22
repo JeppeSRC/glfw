@@ -3,9 +3,6 @@ project "GLFW"
 	language "C"
 	staticruntime "off"
 
-	targetdir ("bin/}")
-	objdir ("bin/obj/}")
-
 	files {
 		"include/GLFW/glfw3.h",
 		"include/GLFW/glfw3native.h",
